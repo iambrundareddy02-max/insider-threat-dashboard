@@ -1,0 +1,51 @@
+{
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "roc_auc": 1.0,
+  "avg_precision": 1.0,
+  "confusion_matrix": [
+    [
+      13906,
+      0
+    ],
+    [
+      0,
+      613
+    ]
+  ],
+  "train_rows": 33891,
+  "test_rows": 14519,
+  "features": [
+    "logon_count",
+    "after_hours_logons",
+    "weekend_logons",
+    "usb_connections",
+    "files_copied",
+    "emails_sent",
+    "external_emails",
+    "attachment_size",
+    "total_websites_visited",
+    "suspicious_url_visits",
+    "job_search_visits",
+    "cloud_storage_visits",
+    "leaker_visits",
+    "malicious_scenario",
+    "z_own_30d_logon_count",
+    "z_own_30d_after_hours_logons",
+    "z_own_30d_usb_connections",
+    "z_own_30d_files_copied",
+    "z_own_30d_emails_sent",
+    "z_own_30d_external_emails",
+    "z_own_30d_total_websites_visited",
+    "z_own_30d_suspicious_url_visits",
+    "z_dept_logon_count",
+    "z_dept_after_hours_logons",
+    "z_dept_usb_connections",
+    "z_dept_files_copied",
+    "z_dept_emails_sent",
+    "z_dept_external_emails",
+    "z_dept_total_websites_visited",
+    "z_dept_suspicious_url_visits"
+  ]
+}

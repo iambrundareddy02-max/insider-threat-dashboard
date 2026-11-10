@@ -1,0 +1,32 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+
+# Raw CERT datasets - DO NOT UPLOAD
+backend/data/raw/
+**/data/raw/
+data/raw/
+
+# Large archive files
+*.tar
+*.tar.gz
+*.tar.bz2
+*.zip
+*.7z
+
+# Keep processed data
+!backend/data/processed/
+!backend/data/processed/**
+
+# Keep trained models
+!backend/models/
+!backend/models/**
